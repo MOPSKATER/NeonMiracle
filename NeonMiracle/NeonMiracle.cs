@@ -83,7 +83,7 @@ namespace NeonMiracle
             GameObject godspeedHolder = new("GodspeedHolder", typeof(RectTransform));
             godspeedHolder.transform.SetParent(bars.transform, false);
             godspeedHolder.transform.localScale = scaleHolder;
-            godspeedHolder.transform.localPosition = new(-38f, 11f, 0f);
+            godspeedHolder.transform.localPosition = new(-38f, -3f, 0f);
             godspeedHolder.GetComponent<RectTransform>().pivot = pivot;
             godspeedHolder.AddComponent<Image>().color = colorHolder;
 
@@ -99,7 +99,7 @@ namespace NeonMiracle
             GameObject stompHolder = new("StompHolder", typeof(RectTransform));
             stompHolder.transform.SetParent(bars.transform, false);
             stompHolder.transform.localScale = scaleHolder;
-            stompHolder.transform.localPosition = new(-38f, -3f, 0f);
+            stompHolder.transform.localPosition = new(-38f, 11f, 0f);
             stompHolder.GetComponent<RectTransform>().pivot = pivot;
             stompHolder.AddComponent<Image>().color = colorHolder;
 
